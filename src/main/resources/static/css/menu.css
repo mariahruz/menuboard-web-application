@@ -1,0 +1,56 @@
+.item {
+	display: inline-block;
+	border: 1px solid rosybrown;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: rgba(222, 212, 156, 0.4);
+	height: 130px;
+	width: 200px;
+	margin: 3px;
+	font-weight: bold;
+}
+.menu {
+	width: 840px;
+	background-color: beige;
+}
+
+.productName {
+	padding: 6px;
+	position: relative;
+	top: 5px;
+	font-size: 10px;
+}
+
+img {
+	height: 90px;
+	position: relative;
+	top: 10px;
+}
+
+.comboContainer {
+	border: 1px solid rosybrown;
+	border-radius: 8px;
+	width: 35px;
+	text-align: center;
+	float: right;
+	margin: 3px;
+}
+
+.eachContainer {
+	text-align: center;
+	width:35px;
+	clear: both;
+	float: right;
+	top: 50px;
+	margin: 3px;
+}
+
+.comboTitle,
+.eachTitle {
+	font-size: 6px;
+}
+
+.comboPrice,
+.eachPrice {
+	font-size: 12px;
+}

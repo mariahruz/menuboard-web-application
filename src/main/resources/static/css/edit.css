@@ -1,0 +1,39 @@
+.item {
+	background-color:cadetblue;
+	display: inline-block;
+	border-radius:5px;
+	width: 200px;
+	padding: 15px;
+	margin: 5px;
+}
+.invisible {
+	display: none;
+}
+
+input {
+	width: 165px;
+	margin: 5px 0px;
+}
+
+button {
+	width: 80px;
+	margin: 10px 0px;
+}
+
+.radio {
+	display: inline-block;
+	width: 25px;
+}
+
+span {
+	padding: 0 20px 0 0;
+}
+
+.addNew {
+	margin: 5px;
+	width: 100px;
+}
+
+h4 {
+	margin-left: 5px;
+}

@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Edit Menu</title>
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/edit.css" rel="stylesheet">
+		
+	</head>
+
+	<body id=main>
+		<div class="item" id="item">
+			<form>
+				<div>Name:</div>
+				<input type="text" name="name">
+				<div>Combo Price:</div>
+				<input type="number" step="0.01" name="comboPrice">
+				<div>Each Price:</div>
+				<input type="number" step = "0.01" name="eachPrice">
+				<div>Image Url:</div>
+				<input type="text" name="image">
+				<div>Available:</div>
+				<input type="radio" name="available" value="true" class="radio">
+				<span>True</span>
+				<input type="radio" name="available" value="false" class="radio">
+				<span>False</span>
+				<button type="button" id="add">Add</button>		
+			</form>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="/js/addNew.js"></script>
+	</body>
+
+</html>
